@@ -166,3 +166,21 @@ a.secondary {
     filter: invert();
   }
 }
+
+.button {
+  margin-top: 1rem;
+  margin-inline: auto;
+}
+
+.link {
+  padding: 1rem;
+  border: 2px solid rgb(248, 244, 244);
+  border-radius: 100vmax;
+  font-size: 1rem;
+  color: rgb(8, 26, 220);
+}
+@media (any-hover: hover) {
+  .link:hover {
+    opacity: .7;
+  }
+}

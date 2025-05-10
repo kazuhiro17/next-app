@@ -45,6 +45,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <div className={styles.button}>
+          <a href="./about/" className={styles.link}>aboutページへ</a>
+        </div>
       </main>
       <footer className={styles.footer}>
         <a
