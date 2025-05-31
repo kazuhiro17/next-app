@@ -1,0 +1,7 @@
+.userCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px auto;
+  width: min(100%, 400px);
+}

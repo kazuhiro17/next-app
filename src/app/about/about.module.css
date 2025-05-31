@@ -1,20 +1,22 @@
 .container {
+  padding-inline: 1.5rem;
   height: 100vh;
-
+  /* display: grid; */
+  /* place-items: center; */
 }
 
 .title {
-  margin-top: 50vh;
-  display: grid;
-  place-items: center;
+  margin-top: 30vh;
   font-size: 3rem;
   font-weight: bold;
   color: rgb(8, 26, 220);
+  text-align: center;
 }
 
 .button {
   margin-top: 1rem;
   margin-inline: auto;
+  display: block;
   width: fit-content;
 }
 
@@ -30,4 +32,8 @@
   .link:hover {
     opacity: .7;
   }
+}
+
+.loading {
+  text-align: center;
 }
