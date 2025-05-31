@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import styles from "./about.module.css";
 import { UserCard } from "@/components/UserCard/UserCard";
 import { useAllUsers } from "@/hook/useAllUsers";
@@ -12,9 +13,9 @@ export default function AboutPage() {
     <div className={styles.container}>
       <div className={styles.title}>About Page</div>
       <div className={styles.button}>
-        <a href="./" className={styles.link}>
+        <Link href="./" className={styles.link}>
           トップページへ
-        </a>
+        </Link>
       </div>
       <button className={styles.button} onClick={onClickFetchUser}>
         データ取得

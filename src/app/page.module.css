@@ -178,6 +178,7 @@ a.secondary {
   border-radius: 100vmax;
   font-size: 1rem;
   color: rgb(8, 26, 220);
+  cursor: pointer;
 }
 @media (any-hover: hover) {
   .link:hover {

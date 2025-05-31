@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -46,7 +47,7 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.button}>
-          <a href="./about/" className={styles.link}>aboutページへ</a>
+          <Link href="/about" className={styles.link}>aboutページへ</Link>
         </div>
       </main>
       <footer className={styles.footer}>
